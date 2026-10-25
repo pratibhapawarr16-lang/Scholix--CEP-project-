@@ -1,0 +1,3801 @@
+{
+  "users": [
+    {
+      "id": "usr-student-1",
+      "role": "student",
+      "username": "aarav.sharma@scholix.demo",
+      "password": "student123",
+      "linkedProfileId": "stu-10a-01"
+    },
+    {
+      "id": "usr-student-2",
+      "role": "student",
+      "username": "diya.patel@scholix.demo",
+      "password": "student123",
+      "linkedProfileId": "stu-10a-02"
+    },
+    {
+      "id": "usr-student-3",
+      "role": "student",
+      "username": "rohan.mehta@scholix.demo",
+      "password": "student123",
+      "linkedProfileId": "stu-9b-05"
+    },
+    {
+      "id": "usr-faculty-1",
+      "role": "faculty",
+      "username": "meera.kulkarni@scholix.demo",
+      "password": "faculty123",
+      "linkedProfileId": "fac-01"
+    },
+    {
+      "id": "usr-faculty-2",
+      "role": "faculty",
+      "username": "rajesh.deshmukh@scholix.demo",
+      "password": "faculty123",
+      "linkedProfileId": "fac-02"
+    },
+    {
+      "id": "usr-faculty-3",
+      "role": "faculty",
+      "username": "ananya.sen@scholix.demo",
+      "password": "faculty123",
+      "linkedProfileId": "fac-03"
+    },
+    {
+      "id": "usr-faculty-4",
+      "role": "faculty",
+      "username": "vikram.singh@scholix.demo",
+      "password": "faculty123",
+      "linkedProfileId": "fac-04"
+    },
+    {
+      "id": "usr-faculty-5",
+      "role": "faculty",
+      "username": "priya.nair@scholix.demo",
+      "password": "faculty123",
+      "linkedProfileId": "fac-05"
+    }
+  ],
+  "classes": [
+    {
+      "id": "class-10a",
+      "grade": 10,
+      "section": "A",
+      "classTeacherId": "fac-01",
+      "roomNo": "Room 302"
+    },
+    {
+      "id": "class-9b",
+      "grade": 9,
+      "section": "B",
+      "classTeacherId": "fac-02",
+      "roomNo": "Room 204"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "sub-math",
+      "name": "Mathematics",
+      "code": "MATH-10"
+    },
+    {
+      "id": "sub-sci",
+      "name": "Science",
+      "code": "SCI-10"
+    },
+    {
+      "id": "sub-eng",
+      "name": "English",
+      "code": "ENG-10"
+    },
+    {
+      "id": "sub-sst",
+      "name": "Social Studies",
+      "code": "SST-10"
+    },
+    {
+      "id": "sub-hin",
+      "name": "Hindi",
+      "code": "HIN-10"
+    },
+    {
+      "id": "sub-cs",
+      "name": "Computer Science",
+      "code": "CS-10"
+    }
+  ],
+  "faculty": [
+    {
+      "id": "fac-01",
+      "name": "Mrs. Meera Kulkarni",
+      "employeeId": "EMP-0104",
+      "department": "Mathematics",
+      "designation": "Senior Faculty & Class Teacher 10-A",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "email": "meera.kulkarni@scholix.demo",
+      "phone": "+91 98230 45671"
+    },
+    {
+      "id": "fac-02",
+      "name": "Dr. Rajesh Deshmukh",
+      "employeeId": "EMP-0102",
+      "department": "Science",
+      "designation": "Head of Science & Class Teacher 9-B",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&auto=format&fit=crop&q=80",
+      "email": "rajesh.deshmukh@scholix.demo",
+      "phone": "+91 98221 67890"
+    },
+    {
+      "id": "fac-03",
+      "name": "Ms. Ananya Sen",
+      "employeeId": "EMP-0101",
+      "department": "Languages",
+      "designation": "English Faculty",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "email": "ananya.sen@scholix.demo",
+      "phone": "+91 98233 11223"
+    },
+    {
+      "id": "fac-04",
+      "name": "Mr. Vikram Singh",
+      "employeeId": "EMP-0103",
+      "department": "Humanities",
+      "designation": "Social Studies Faculty",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "email": "vikram.singh@scholix.demo",
+      "phone": "+91 98214 33445"
+    },
+    {
+      "id": "fac-05",
+      "name": "Mrs. Priya Nair",
+      "employeeId": "EMP-0105",
+      "department": "Information Technology",
+      "designation": "Computer Science Faculty & Lab In-charge",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "email": "priya.nair@scholix.demo",
+      "phone": "+91 98245 55667"
+    },
+    {
+      "id": "fac-06",
+      "name": "Mr. Sanjay Joshi",
+      "employeeId": "EMP-0106",
+      "department": "Languages",
+      "designation": "Hindi Faculty",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "email": "sanjay.joshi@scholix.demo",
+      "phone": "+91 98256 77889"
+    }
+  ],
+  "facultyAssignments": [
+    {
+      "id": "fa-1",
+      "facultyId": "fac-01",
+      "classId": "class-10a",
+      "subjectId": "sub-math"
+    },
+    {
+      "id": "fa-2",
+      "facultyId": "fac-01",
+      "classId": "class-9b",
+      "subjectId": "sub-math"
+    },
+    {
+      "id": "fa-3",
+      "facultyId": "fac-02",
+      "classId": "class-10a",
+      "subjectId": "sub-sci"
+    },
+    {
+      "id": "fa-4",
+      "facultyId": "fac-02",
+      "classId": "class-9b",
+      "subjectId": "sub-sci"
+    },
+    {
+      "id": "fa-5",
+      "facultyId": "fac-03",
+      "classId": "class-10a",
+      "subjectId": "sub-eng"
+    },
+    {
+      "id": "fa-6",
+      "facultyId": "fac-03",
+      "classId": "class-9b",
+      "subjectId": "sub-eng"
+    },
+    {
+      "id": "fa-7",
+      "facultyId": "fac-04",
+      "classId": "class-10a",
+      "subjectId": "sub-sst"
+    },
+    {
+      "id": "fa-8",
+      "facultyId": "fac-04",
+      "classId": "class-9b",
+      "subjectId": "sub-sst"
+    },
+    {
+      "id": "fa-9",
+      "facultyId": "fac-05",
+      "classId": "class-10a",
+      "subjectId": "sub-cs"
+    },
+    {
+      "id": "fa-10",
+      "facultyId": "fac-05",
+      "classId": "class-9b",
+      "subjectId": "sub-cs"
+    },
+    {
+      "id": "fa-11",
+      "facultyId": "fac-06",
+      "classId": "class-10a",
+      "subjectId": "sub-hin"
+    },
+    {
+      "id": "fa-12",
+      "facultyId": "fac-06",
+      "classId": "class-9b",
+      "subjectId": "sub-hin"
+    }
+  ],
+  "students": [
+    {
+      "id": "stu-10a-01",
+      "name": "Aarav Sharma",
+      "rollNo": "01",
+      "admissionNo": "SCH-2023-1001",
+      "classId": "class-10a",
+      "section": "A",
+      "dob": "2009-08-14",
+      "guardianName": "Rajesh Sharma",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+      "academicYear": "2025-2026",
+      "contactEmail": "aarav.sharma@scholix.demo",
+      "contactPhone": "+91 98765 43210"
+    },
+    {
+      "id": "stu-10a-02",
+      "name": "Diya Patel",
+      "rollNo": "02",
+      "admissionNo": "SCH-2023-1002",
+      "classId": "class-10a",
+      "section": "A",
+      "dob": "2009-11-22",
+      "guardianName": "Suresh Patel",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      "academicYear": "2025-2026",
+      "contactEmail": "diya.patel@scholix.demo",
+      "contactPhone": "+91 98765 43211"
+    },
+    {
+      "id": "stu-10a-03",
+      "name": "Ishaan Verma",
+      "rollNo": "03",
+      "admissionNo": "SCH-2023-1003",
+      "classId": "class-10a",
+      "section": "A",
+      "dob": "2009-04-10",
+      "guardianName": "Sunil Verma",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80",
+      "academicYear": "2025-2026",
+      "contactEmail": "ishaan.verma@scholix.demo",
+      "contactPhone": "+91 98765 43212"
+    },
+    {
+      "id": "stu-10a-04",
+      "name": "Ananya Gupta",
+      "rollNo": "04",
+      "admissionNo": "SCH-2023-1004",
+      "classId": "class-10a",
+      "section": "A",
+      "dob": "2009-07-19",
+      "guardianName": "Manoj Gupta",
+      "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150&auto=format&fit=crop&q=80",
+      "academicYear": "2025-2026",
+      "contactEmail": "ananya.gupta@scholix.demo",
+      "contactPhone": "+91 98765 43213"
+    },
+    {
+      "id": "stu-10a-05",
+      "name": "Kabir Joshi",
+      "rollNo": "05",
+      "admissionNo": "SCH-2023-1005",
+      "classId": "class-10a",
+      "section": "A",
+      "dob": "2009-03-05",
+      "guardianName": "Vinay Joshi",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "academicYear": "2025-2026",
+      "contactEmail": "kabir.joshi@scholix.demo",
+      "contactPhone": "+91 98765 43214"
+    },
+    {
+      "id": "stu-10a-06",
+      "name": "Rhea Kapoor",
+      "rollNo": "06",
+      "admissionNo": "SCH-2023-1006",
+      "classId": "class-10a",
+      "section": "A",
+      "dob": "2009-09-30",
+      "guardianName": "Anil Kapoor",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+      "academicYear": "2025-2026",
+      "contactEmail": "rhea.kapoor@scholix.demo",
+      "contactPhone": "+91 98765 43215"
+    },
+    {
+      "id": "stu-10a-07",
+      "name": "Siddharth Rao",
+      "rollNo": "07",
+      "admissionNo": "SCH-2023-1007",
+      "classId": "class-10a",
+      "section": "A",
+      "dob": "2009-01-15",
+      "guardianName": "Krishna Rao",
+      "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=150&auto=format&fit=crop&q=80",
+      "academicYear": "2025-2026",
+      "contactEmail": "siddharth.rao@scholix.demo",
+      "contactPhone": "+91 98765 43216"
+    },
+    {
+      "id": "stu-10a-08",
+      "name": "Tanvi Shah",
+      "rollNo": "08",
+      "admissionNo": "SCH-2023-1008",
+      "classId": "class-10a",
+      "section": "A",
+      "dob": "2009-12-08",
+      "guardianName": "Paresh Shah",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "academicYear": "2025-2026",
+      "contactEmail": "tanvi.shah@scholix.demo",
+      "contactPhone": "+91 98765 43217"
+    },
+    {
+      "id": "stu-10a-09",
+      "name": "Aditya Nair",
+      "rollNo": "09",
+      "admissionNo": "SCH-2023-1009",
+      "classId": "class-10a",
+      "section": "A",
+      "dob": "2009-05-24",
+      "guardianName": "Harish Nair",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&q=80",
+      "academicYear": "2025-2026",
+      "contactEmail": "aditya.nair@scholix.demo",
+      "contactPhone": "+91 98765 43218"
+    },
+    {
+      "id": "stu-10a-10",
+      "name": "Pooja Deshmukh",
+      "rollNo": "10",
+      "admissionNo": "SCH-2023-1010",
+      "classId": "class-10a",
+      "section": "A",
+      "dob": "2009-10-18",
+      "guardianName": "Anand Deshmukh",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "academicYear": "2025-2026",
+      "contactEmail": "pooja.deshmukh@scholix.demo",
+      "contactPhone": "+91 98765 43219"
+    },
+    {
+      "id": "stu-9b-01",
+      "name": "Ayush Kulkarni",
+      "rollNo": "01",
+      "admissionNo": "SCH-2024-0901",
+      "classId": "class-9b",
+      "section": "B",
+      "dob": "2010-06-11",
+      "guardianName": "Dilip Kulkarni",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "academicYear": "2025-2026",
+      "contactEmail": "ayush.k@scholix.demo",
+      "contactPhone": "+91 98765 43220"
+    },
+    {
+      "id": "stu-9b-02",
+      "name": "Bhavya Reddy",
+      "rollNo": "02",
+      "admissionNo": "SCH-2024-0902",
+      "classId": "class-9b",
+      "section": "B",
+      "dob": "2010-08-20",
+      "guardianName": "Satish Reddy",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      "academicYear": "2025-2026",
+      "contactEmail": "bhavya.r@scholix.demo",
+      "contactPhone": "+91 98765 43221"
+    },
+    {
+      "id": "stu-9b-03",
+      "name": "Chaitanya Sen",
+      "rollNo": "03",
+      "admissionNo": "SCH-2024-0903",
+      "classId": "class-9b",
+      "section": "B",
+      "dob": "2010-02-14",
+      "guardianName": "Prabir Sen",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80",
+      "academicYear": "2025-2026",
+      "contactEmail": "chaitanya.s@scholix.demo",
+      "contactPhone": "+91 98765 43222"
+    },
+    {
+      "id": "stu-9b-04",
+      "name": "Devika Iyer",
+      "rollNo": "04",
+      "admissionNo": "SCH-2024-0904",
+      "classId": "class-9b",
+      "section": "B",
+      "dob": "2010-05-19",
+      "guardianName": "Gopal Iyer",
+      "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150&auto=format&fit=crop&q=80",
+      "academicYear": "2025-2026",
+      "contactEmail": "devika.i@scholix.demo",
+      "contactPhone": "+91 98765 43223"
+    },
+    {
+      "id": "stu-9b-05",
+      "name": "Rohan Mehta",
+      "rollNo": "05",
+      "admissionNo": "SCH-2024-0905",
+      "classId": "class-9b",
+      "section": "B",
+      "dob": "2010-09-12",
+      "guardianName": "Kishore Mehta",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+      "academicYear": "2025-2026",
+      "contactEmail": "rohan.mehta@scholix.demo",
+      "contactPhone": "+91 98765 43224"
+    },
+    {
+      "id": "stu-9b-06",
+      "name": "Sania Mirza",
+      "rollNo": "06",
+      "admissionNo": "SCH-2024-0906",
+      "classId": "class-9b",
+      "section": "B",
+      "dob": "2010-11-04",
+      "guardianName": "Farhan Mirza",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+      "academicYear": "2025-2026",
+      "contactEmail": "sania.m@scholix.demo",
+      "contactPhone": "+91 98765 43225"
+    },
+    {
+      "id": "stu-9b-07",
+      "name": "Tushar Bhat",
+      "rollNo": "07",
+      "admissionNo": "SCH-2024-0907",
+      "classId": "class-9b",
+      "section": "B",
+      "dob": "2010-01-29",
+      "guardianName": "Ramesh Bhat",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "academicYear": "2025-2026",
+      "contactEmail": "tushar.b@scholix.demo",
+      "contactPhone": "+91 98765 43226"
+    },
+    {
+      "id": "stu-9b-08",
+      "name": "Zoya Khan",
+      "rollNo": "08",
+      "admissionNo": "SCH-2024-0908",
+      "classId": "class-9b",
+      "section": "B",
+      "dob": "2010-07-03",
+      "guardianName": "Tariq Khan",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "academicYear": "2025-2026",
+      "contactEmail": "zoya.k@scholix.demo",
+      "contactPhone": "+91 98765 43227"
+    }
+  ],
+  "portfolios": {
+    "stu-10a-01": {
+      "studentId": "stu-10a-01",
+      "bio": "Enthusiastic Grade 10 student passionate about STEM, competitive programming, and mathematics. Aspiring computer science researcher with a strong interest in robotics and physics simulation.",
+      "skills": [
+        {
+          "id": "sk-1",
+          "name": "Mathematics & Calculus"
+        },
+        {
+          "id": "sk-2",
+          "name": "Python Programming"
+        },
+        {
+          "id": "sk-3",
+          "name": "Web Development"
+        },
+        {
+          "id": "sk-4",
+          "name": "Chess Strategy"
+        },
+        {
+          "id": "sk-5",
+          "name": "Public Speaking"
+        }
+      ],
+      "achievements": [
+        {
+          "id": "ach-1",
+          "title": "1st Prize - Regional Inter-School Science Fair 2024",
+          "year": "2024",
+          "description": "Designed an automated smart irrigation sensor system powered by microcontrollers."
+        },
+        {
+          "id": "ach-2",
+          "title": "Gold Medal - State Level Math Olympiad",
+          "year": "2024",
+          "description": "Achieved 98th percentile rank in Grade 9 category across 450 schools."
+        }
+      ],
+      "activities": [
+        {
+          "id": "act-1",
+          "title": "Scholix Coding Club",
+          "role": "President",
+          "year": "2024-2025"
+        },
+        {
+          "id": "act-2",
+          "title": "Junior Robotics League",
+          "role": "Team Lead",
+          "year": "2023-2024"
+        }
+      ],
+      "certificates": [
+        {
+          "id": "cert-1",
+          "title": "National Cyber Olympiad Excellence",
+          "issuer": "Science Olympiad Foundation (SOF)",
+          "date": "2024-11-15",
+          "fileName": "NCO_Gold_Certificate.pdf"
+        },
+        {
+          "id": "cert-2",
+          "title": "Introduction to Algorithms & Data Structures",
+          "issuer": "State Tech Education Board",
+          "date": "2024-05-10",
+          "fileName": "Algo_Cert_Aarav.pdf"
+        }
+      ]
+    },
+    "stu-10a-02": {
+      "studentId": "stu-10a-02",
+      "bio": "Aspiring medical professional and environmental science enthusiast. Member of the School Green Corps and literary society.",
+      "skills": [
+        {
+          "id": "sk-d1",
+          "name": "Biology & Environmental Science"
+        },
+        {
+          "id": "sk-d2",
+          "name": "Creative Writing"
+        },
+        {
+          "id": "sk-d3",
+          "name": "Classical Dance"
+        }
+      ],
+      "achievements": [
+        {
+          "id": "ach-d1",
+          "title": "First Prize in State Essay Writing",
+          "year": "2024",
+          "description": "Wrote on Sustainable Urban Biodiversity and received the Governor’s Citation."
+        }
+      ],
+      "activities": [
+        {
+          "id": "act-d1",
+          "title": "Eco-Warriors Club",
+          "role": "Vice President",
+          "year": "2024-2025"
+        }
+      ],
+      "certificates": [
+        {
+          "id": "cert-d1",
+          "title": "Environmental Youth Ambassador",
+          "issuer": "Nature Conservation Forum",
+          "date": "2024-09-01",
+          "fileName": "Youth_Ambassador.pdf"
+        }
+      ]
+    },
+    "stu-9b-05": {
+      "studentId": "stu-9b-05",
+      "bio": "Energetic 9th-grader interested in astrophysics, football, and student council activities.",
+      "skills": [
+        {
+          "id": "sk-r1",
+          "name": "Football (Striker)"
+        },
+        {
+          "id": "sk-r2",
+          "name": "Astronomy & Physics"
+        },
+        {
+          "id": "sk-r3",
+          "name": "Debating"
+        }
+      ],
+      "achievements": [
+        {
+          "id": "ach-r1",
+          "title": "Captain - Under-14 District Football Champions",
+          "year": "2024",
+          "description": "Led the high school team to a 3-1 victory in the district finals."
+        }
+      ],
+      "activities": [
+        {
+          "id": "act-r1",
+          "title": "Sports Council",
+          "role": "Junior Representative",
+          "year": "2024-2025"
+        }
+      ],
+      "certificates": [
+        {
+          "id": "cert-r1",
+          "title": "Best Sportsmanship Award",
+          "issuer": "District Athletic Association",
+          "date": "2024-10-20",
+          "fileName": "District_Sports_Award.pdf"
+        }
+      ]
+    }
+  },
+  "timetable": [
+    {
+      "id": "tt-10a-m1",
+      "classId": "class-10a",
+      "day": "Monday",
+      "period": 1,
+      "startTime": "08:30 AM",
+      "endTime": "09:15 AM",
+      "subjectId": "sub-math",
+      "facultyId": "fac-01"
+    },
+    {
+      "id": "tt-10a-m2",
+      "classId": "class-10a",
+      "day": "Monday",
+      "period": 2,
+      "startTime": "09:15 AM",
+      "endTime": "10:00 AM",
+      "subjectId": "sub-sci",
+      "facultyId": "fac-02"
+    },
+    {
+      "id": "tt-10a-m3",
+      "classId": "class-10a",
+      "day": "Monday",
+      "period": 3,
+      "startTime": "10:15 AM",
+      "endTime": "11:00 AM",
+      "subjectId": "sub-eng",
+      "facultyId": "fac-03"
+    },
+    {
+      "id": "tt-10a-m4",
+      "classId": "class-10a",
+      "day": "Monday",
+      "period": 4,
+      "startTime": "11:00 AM",
+      "endTime": "11:45 AM",
+      "subjectId": "sub-sst",
+      "facultyId": "fac-04"
+    },
+    {
+      "id": "tt-10a-m5",
+      "classId": "class-10a",
+      "day": "Monday",
+      "period": 5,
+      "startTime": "12:30 PM",
+      "endTime": "01:15 PM",
+      "subjectId": "sub-cs",
+      "facultyId": "fac-05"
+    },
+    {
+      "id": "tt-10a-m6",
+      "classId": "class-10a",
+      "day": "Monday",
+      "period": 6,
+      "startTime": "01:15 PM",
+      "endTime": "02:00 PM",
+      "subjectId": "sub-hin",
+      "facultyId": "fac-06"
+    },
+    {
+      "id": "tt-10a-t1",
+      "classId": "class-10a",
+      "day": "Tuesday",
+      "period": 1,
+      "startTime": "08:30 AM",
+      "endTime": "09:15 AM",
+      "subjectId": "sub-sci",
+      "facultyId": "fac-02"
+    },
+    {
+      "id": "tt-10a-t2",
+      "classId": "class-10a",
+      "day": "Tuesday",
+      "period": 2,
+      "startTime": "09:15 AM",
+      "endTime": "10:00 AM",
+      "subjectId": "sub-math",
+      "facultyId": "fac-01"
+    },
+    {
+      "id": "tt-10a-t3",
+      "classId": "class-10a",
+      "day": "Tuesday",
+      "period": 3,
+      "startTime": "10:15 AM",
+      "endTime": "11:00 AM",
+      "subjectId": "sub-cs",
+      "facultyId": "fac-05"
+    },
+    {
+      "id": "tt-10a-t4",
+      "classId": "class-10a",
+      "day": "Tuesday",
+      "period": 4,
+      "startTime": "11:00 AM",
+      "endTime": "11:45 AM",
+      "subjectId": "sub-eng",
+      "facultyId": "fac-03"
+    },
+    {
+      "id": "tt-10a-t5",
+      "classId": "class-10a",
+      "day": "Tuesday",
+      "period": 5,
+      "startTime": "12:30 PM",
+      "endTime": "01:15 PM",
+      "subjectId": "sub-sst",
+      "facultyId": "fac-04"
+    },
+    {
+      "id": "tt-10a-t6",
+      "classId": "class-10a",
+      "day": "Tuesday",
+      "period": 6,
+      "startTime": "01:15 PM",
+      "endTime": "02:00 PM",
+      "subjectId": "sub-math",
+      "facultyId": "fac-01"
+    },
+    {
+      "id": "tt-10a-w1",
+      "classId": "class-10a",
+      "day": "Wednesday",
+      "period": 1,
+      "startTime": "08:30 AM",
+      "endTime": "09:15 AM",
+      "subjectId": "sub-math",
+      "facultyId": "fac-01"
+    },
+    {
+      "id": "tt-10a-w2",
+      "classId": "class-10a",
+      "day": "Wednesday",
+      "period": 2,
+      "startTime": "09:15 AM",
+      "endTime": "10:00 AM",
+      "subjectId": "sub-eng",
+      "facultyId": "fac-03"
+    },
+    {
+      "id": "tt-10a-w3",
+      "classId": "class-10a",
+      "day": "Wednesday",
+      "period": 3,
+      "startTime": "10:15 AM",
+      "endTime": "11:00 AM",
+      "subjectId": "sub-sci",
+      "facultyId": "fac-02"
+    },
+    {
+      "id": "tt-10a-w4",
+      "classId": "class-10a",
+      "day": "Wednesday",
+      "period": 4,
+      "startTime": "11:00 AM",
+      "endTime": "11:45 AM",
+      "subjectId": "sub-hin",
+      "facultyId": "fac-06"
+    },
+    {
+      "id": "tt-10a-w5",
+      "classId": "class-10a",
+      "day": "Wednesday",
+      "period": 5,
+      "startTime": "12:30 PM",
+      "endTime": "01:15 PM",
+      "subjectId": "sub-cs",
+      "facultyId": "fac-05"
+    },
+    {
+      "id": "tt-10a-w6",
+      "classId": "class-10a",
+      "day": "Wednesday",
+      "period": 6,
+      "startTime": "01:15 PM",
+      "endTime": "02:00 PM",
+      "subjectId": "sub-sst",
+      "facultyId": "fac-04"
+    },
+    {
+      "id": "tt-10a-th1",
+      "classId": "class-10a",
+      "day": "Thursday",
+      "period": 1,
+      "startTime": "08:30 AM",
+      "endTime": "09:15 AM",
+      "subjectId": "sub-sci",
+      "facultyId": "fac-02"
+    },
+    {
+      "id": "tt-10a-th2",
+      "classId": "class-10a",
+      "day": "Thursday",
+      "period": 2,
+      "startTime": "09:15 AM",
+      "endTime": "10:00 AM",
+      "subjectId": "sub-sst",
+      "facultyId": "fac-04"
+    },
+    {
+      "id": "tt-10a-th3",
+      "classId": "class-10a",
+      "day": "Thursday",
+      "period": 3,
+      "startTime": "10:15 AM",
+      "endTime": "11:00 AM",
+      "subjectId": "sub-math",
+      "facultyId": "fac-01"
+    },
+    {
+      "id": "tt-10a-th4",
+      "classId": "class-10a",
+      "day": "Thursday",
+      "period": 4,
+      "startTime": "11:00 AM",
+      "endTime": "11:45 AM",
+      "subjectId": "sub-eng",
+      "facultyId": "fac-03"
+    },
+    {
+      "id": "tt-10a-th5",
+      "classId": "class-10a",
+      "day": "Thursday",
+      "period": 5,
+      "startTime": "12:30 PM",
+      "endTime": "01:15 PM",
+      "subjectId": "sub-hin",
+      "facultyId": "fac-06"
+    },
+    {
+      "id": "tt-10a-th6",
+      "classId": "class-10a",
+      "day": "Thursday",
+      "period": 6,
+      "startTime": "01:15 PM",
+      "endTime": "02:00 PM",
+      "subjectId": "sub-cs",
+      "facultyId": "fac-05"
+    },
+    {
+      "id": "tt-10a-f1",
+      "classId": "class-10a",
+      "day": "Friday",
+      "period": 1,
+      "startTime": "08:30 AM",
+      "endTime": "09:15 AM",
+      "subjectId": "sub-eng",
+      "facultyId": "fac-03"
+    },
+    {
+      "id": "tt-10a-f2",
+      "classId": "class-10a",
+      "day": "Friday",
+      "period": 2,
+      "startTime": "09:15 AM",
+      "endTime": "10:00 AM",
+      "subjectId": "sub-math",
+      "facultyId": "fac-01"
+    },
+    {
+      "id": "tt-10a-f3",
+      "classId": "class-10a",
+      "day": "Friday",
+      "period": 3,
+      "startTime": "10:15 AM",
+      "endTime": "11:00 AM",
+      "subjectId": "sub-cs",
+      "facultyId": "fac-05"
+    },
+    {
+      "id": "tt-10a-f4",
+      "classId": "class-10a",
+      "day": "Friday",
+      "period": 4,
+      "startTime": "11:00 AM",
+      "endTime": "11:45 AM",
+      "subjectId": "sub-sci",
+      "facultyId": "fac-02"
+    },
+    {
+      "id": "tt-10a-f5",
+      "classId": "class-10a",
+      "day": "Friday",
+      "period": 5,
+      "startTime": "12:30 PM",
+      "endTime": "01:15 PM",
+      "subjectId": "sub-sst",
+      "facultyId": "fac-04"
+    },
+    {
+      "id": "tt-10a-f6",
+      "classId": "class-10a",
+      "day": "Friday",
+      "period": 6,
+      "startTime": "01:15 PM",
+      "endTime": "02:00 PM",
+      "subjectId": "sub-hin",
+      "facultyId": "fac-06"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att-1",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-09-10",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-2",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-09-10",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-3",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-09-10",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-4",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-09-10",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-5",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-09-10",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-6",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-09-10",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-7",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-09-10",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-8",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-09-10",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-9",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-09-10",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-10",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-09-10",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-11",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-09-11",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-12",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-09-11",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-13",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-09-11",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-14",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-09-11",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-15",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-09-11",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-16",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-09-11",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-17",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-09-11",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-18",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-09-11",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-19",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-09-11",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-20",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-09-11",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-21",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-09-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-22",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-09-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-23",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-09-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-24",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-09-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-25",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-09-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-26",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-09-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-27",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-09-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-28",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-09-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-29",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-09-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-30",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-09-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-31",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-09-15",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-32",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-09-15",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-33",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-09-15",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-34",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-09-15",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-35",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-09-15",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-36",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-09-15",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-37",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-09-15",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-38",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-09-15",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-39",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-09-15",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-40",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-09-15",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-41",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-09-16",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-42",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-09-16",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-43",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-09-16",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-44",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-09-16",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-45",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-09-16",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-46",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-09-16",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-47",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-09-16",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-48",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-09-16",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-49",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-09-16",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-50",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-09-16",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-51",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-09-17",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-52",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-09-17",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-53",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-09-17",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-54",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-09-17",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-55",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-09-17",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-56",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-09-17",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-57",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-09-17",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-58",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-09-17",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-59",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-09-17",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-60",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-09-17",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-61",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-09-18",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-62",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-09-18",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-63",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-09-18",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-64",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-09-18",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-65",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-09-18",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-66",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-09-18",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-67",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-09-18",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-68",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-09-18",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-69",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-09-18",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-70",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-09-18",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-71",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-09-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-72",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-09-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-73",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-09-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-74",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-09-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-75",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-09-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-76",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-09-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-77",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-09-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-78",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-09-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-79",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-09-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-80",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-09-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-81",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-09-22",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-82",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-09-22",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-83",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-09-22",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-84",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-09-22",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-85",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-09-22",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-86",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-09-22",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-87",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-09-22",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-88",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-09-22",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-89",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-09-22",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-90",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-09-22",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-91",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-09-23",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-92",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-09-23",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-93",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-09-23",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-94",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-09-23",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-95",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-09-23",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-96",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-09-23",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-97",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-09-23",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-98",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-09-23",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-99",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-09-23",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-100",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-09-23",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-101",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-09-24",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-102",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-09-24",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-103",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-09-24",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-104",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-09-24",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-105",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-09-24",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-106",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-09-24",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-107",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-09-24",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-108",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-09-24",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-109",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-09-24",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-110",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-09-24",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-111",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-09-25",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-112",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-09-25",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-113",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-09-25",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-114",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-09-25",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-115",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-09-25",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-116",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-09-25",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-117",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-09-25",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-118",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-09-25",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-119",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-09-25",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-120",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-09-25",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-121",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-09-28",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-122",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-09-28",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-123",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-09-28",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-124",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-09-28",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-125",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-09-28",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-126",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-09-28",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-127",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-09-28",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-128",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-09-28",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-129",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-09-28",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-130",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-09-28",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-131",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-09-29",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-132",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-09-29",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-133",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-09-29",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-134",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-09-29",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-135",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-09-29",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-136",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-09-29",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-137",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-09-29",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-138",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-09-29",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-139",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-09-29",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-140",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-09-29",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-141",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-09-30",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-142",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-09-30",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-143",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-09-30",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-144",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-09-30",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-145",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-09-30",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-146",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-09-30",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-147",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-09-30",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-148",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-09-30",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-149",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-09-30",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-150",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-09-30",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-151",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-10-01",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-152",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-10-01",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-153",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-10-01",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-154",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-10-01",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-155",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-10-01",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-156",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-10-01",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-157",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-10-01",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-158",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-10-01",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-159",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-10-01",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-160",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-10-01",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-161",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-10-02",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-162",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-10-02",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-163",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-10-02",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-164",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-10-02",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-165",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-10-02",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-166",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-10-02",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-167",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-10-02",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-168",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-10-02",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-169",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-10-02",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-170",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-10-02",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-171",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-10-05",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-172",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-10-05",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-173",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-10-05",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-174",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-10-05",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-175",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-10-05",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-176",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-10-05",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-177",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-10-05",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-178",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-10-05",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-179",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-10-05",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-180",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-10-05",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-181",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-10-06",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-182",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-10-06",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-183",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-10-06",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-184",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-10-06",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-185",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-10-06",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-186",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-10-06",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-187",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-10-06",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-188",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-10-06",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-189",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-10-06",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-190",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-10-06",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-191",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-10-07",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-192",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-10-07",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-193",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-10-07",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-194",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-10-07",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-195",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-10-07",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-196",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-10-07",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-197",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-10-07",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-198",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-10-07",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-199",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-10-07",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-200",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-10-07",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-201",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-10-08",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-202",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-10-08",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-203",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-10-08",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-204",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-10-08",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-205",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-10-08",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-206",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-10-08",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-207",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-10-08",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-208",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-10-08",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-209",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-10-08",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-210",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-10-08",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-211",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-10-09",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-212",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-10-09",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-213",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-10-09",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-214",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-10-09",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-215",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-10-09",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-216",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-10-09",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-217",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-10-09",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-218",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-10-09",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-219",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-10-09",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-220",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-10-09",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-221",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-10-12",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-222",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-10-12",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-223",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-10-12",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-224",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-10-12",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-225",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-10-12",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-226",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-10-12",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-227",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-10-12",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-228",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-10-12",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-229",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-10-12",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-230",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-10-12",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-231",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-10-13",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-232",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-10-13",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-233",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-10-13",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-234",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-10-13",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-235",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-10-13",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-236",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-10-13",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-237",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-10-13",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-238",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-10-13",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-239",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-10-13",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-240",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-10-13",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-241",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-10-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-242",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-10-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-243",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-10-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-244",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-10-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-245",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-10-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-246",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-10-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-247",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-10-14",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-248",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-10-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-249",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-10-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-250",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-10-14",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-251",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-10-15",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-252",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-10-15",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-253",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-10-15",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-254",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-10-15",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-255",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-10-15",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-256",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-10-15",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-257",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-10-15",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-258",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-10-15",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-259",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-10-15",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-260",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-10-15",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-261",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-10-16",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-262",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-10-16",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-263",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-10-16",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-264",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-10-16",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-265",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-10-16",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-266",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-10-16",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-267",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-10-16",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-268",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-10-16",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-269",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-10-16",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-270",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-10-16",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-271",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-10-19",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-272",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-10-19",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-273",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-10-19",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-274",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-10-19",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-275",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-10-19",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-276",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-10-19",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-277",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-10-19",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-278",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-10-19",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-279",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-10-19",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-280",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-10-19",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-281",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-10-20",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-282",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-10-20",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-283",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-10-20",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-284",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-10-20",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-285",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-10-20",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-286",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-10-20",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-287",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-10-20",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-288",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-10-20",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-289",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-10-20",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-290",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-10-20",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-291",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-10-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-292",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-10-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-293",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-10-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-294",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-10-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-295",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-10-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-296",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-10-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-297",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-10-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-298",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-10-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-299",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-10-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-300",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-10-21",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-301",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-10-22",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-302",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-10-22",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-303",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-10-22",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-304",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-10-22",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-305",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-10-22",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-306",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-10-22",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-307",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-10-22",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-308",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-10-22",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-309",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-10-22",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-310",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-10-22",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-311",
+      "studentId": "stu-10a-01",
+      "classId": "class-10a",
+      "date": "2026-10-23",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-312",
+      "studentId": "stu-10a-02",
+      "classId": "class-10a",
+      "date": "2026-10-23",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-313",
+      "studentId": "stu-10a-03",
+      "classId": "class-10a",
+      "date": "2026-10-23",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-314",
+      "studentId": "stu-10a-04",
+      "classId": "class-10a",
+      "date": "2026-10-23",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-315",
+      "studentId": "stu-10a-05",
+      "classId": "class-10a",
+      "date": "2026-10-23",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-316",
+      "studentId": "stu-10a-06",
+      "classId": "class-10a",
+      "date": "2026-10-23",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-317",
+      "studentId": "stu-10a-07",
+      "classId": "class-10a",
+      "date": "2026-10-23",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-318",
+      "studentId": "stu-10a-08",
+      "classId": "class-10a",
+      "date": "2026-10-23",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-319",
+      "studentId": "stu-10a-09",
+      "classId": "class-10a",
+      "date": "2026-10-23",
+      "status": "Present",
+      "markedBy": "fac-01"
+    },
+    {
+      "id": "att-320",
+      "studentId": "stu-10a-10",
+      "classId": "class-10a",
+      "date": "2026-10-23",
+      "status": "Absent",
+      "markedBy": "fac-01"
+    }
+  ],
+  "exams": [
+    {
+      "id": "exam-ut1",
+      "name": "Unit Test 1",
+      "classId": "class-10a",
+      "date": "2025-08-18",
+      "academicYear": "2025-2026"
+    },
+    {
+      "id": "exam-mid",
+      "name": "Midterm Examination",
+      "classId": "class-10a",
+      "date": "2025-10-10",
+      "academicYear": "2025-2026"
+    }
+  ],
+  "examSubjects": [
+    {
+      "examId": "exam-ut1",
+      "subjectId": "sub-math",
+      "maxMarks": 25
+    },
+    {
+      "examId": "exam-ut1",
+      "subjectId": "sub-sci",
+      "maxMarks": 25
+    },
+    {
+      "examId": "exam-ut1",
+      "subjectId": "sub-eng",
+      "maxMarks": 25
+    },
+    {
+      "examId": "exam-ut1",
+      "subjectId": "sub-sst",
+      "maxMarks": 25
+    },
+    {
+      "examId": "exam-ut1",
+      "subjectId": "sub-hin",
+      "maxMarks": 25
+    },
+    {
+      "examId": "exam-ut1",
+      "subjectId": "sub-cs",
+      "maxMarks": 25
+    },
+    {
+      "examId": "exam-mid",
+      "subjectId": "sub-math",
+      "maxMarks": 100
+    },
+    {
+      "examId": "exam-mid",
+      "subjectId": "sub-sci",
+      "maxMarks": 100
+    },
+    {
+      "examId": "exam-mid",
+      "subjectId": "sub-eng",
+      "maxMarks": 100
+    },
+    {
+      "examId": "exam-mid",
+      "subjectId": "sub-sst",
+      "maxMarks": 100
+    },
+    {
+      "examId": "exam-mid",
+      "subjectId": "sub-hin",
+      "maxMarks": 100
+    },
+    {
+      "examId": "exam-mid",
+      "subjectId": "sub-cs",
+      "maxMarks": 100
+    }
+  ],
+  "results": [
+    {
+      "id": "res-ut1-01",
+      "studentId": "stu-10a-01",
+      "examId": "exam-ut1",
+      "subjectId": "sub-math",
+      "marks": 24,
+      "status": "Published",
+      "enteredBy": "fac-01",
+      "updatedAt": "2025-08-25"
+    },
+    {
+      "id": "res-ut1-02",
+      "studentId": "stu-10a-01",
+      "examId": "exam-ut1",
+      "subjectId": "sub-sci",
+      "marks": 23,
+      "status": "Published",
+      "enteredBy": "fac-02",
+      "updatedAt": "2025-08-25"
+    },
+    {
+      "id": "res-ut1-03",
+      "studentId": "stu-10a-01",
+      "examId": "exam-ut1",
+      "subjectId": "sub-eng",
+      "marks": 22,
+      "status": "Published",
+      "enteredBy": "fac-03",
+      "updatedAt": "2025-08-25"
+    },
+    {
+      "id": "res-ut1-04",
+      "studentId": "stu-10a-01",
+      "examId": "exam-ut1",
+      "subjectId": "sub-sst",
+      "marks": 21,
+      "status": "Published",
+      "enteredBy": "fac-04",
+      "updatedAt": "2025-08-25"
+    },
+    {
+      "id": "res-ut1-05",
+      "studentId": "stu-10a-01",
+      "examId": "exam-ut1",
+      "subjectId": "sub-hin",
+      "marks": 20,
+      "status": "Published",
+      "enteredBy": "fac-06",
+      "updatedAt": "2025-08-25"
+    },
+    {
+      "id": "res-ut1-06",
+      "studentId": "stu-10a-01",
+      "examId": "exam-ut1",
+      "subjectId": "sub-cs",
+      "marks": 25,
+      "status": "Published",
+      "enteredBy": "fac-05",
+      "updatedAt": "2025-08-25"
+    },
+    {
+      "id": "res-mid-01",
+      "studentId": "stu-10a-01",
+      "examId": "exam-mid",
+      "subjectId": "sub-sci",
+      "marks": 92,
+      "status": "Published",
+      "enteredBy": "fac-02",
+      "updatedAt": "2025-10-18"
+    },
+    {
+      "id": "res-mid-02",
+      "studentId": "stu-10a-01",
+      "examId": "exam-mid",
+      "subjectId": "sub-eng",
+      "marks": 88,
+      "status": "Published",
+      "enteredBy": "fac-03",
+      "updatedAt": "2025-10-18"
+    },
+    {
+      "id": "res-mid-03",
+      "studentId": "stu-10a-01",
+      "examId": "exam-mid",
+      "subjectId": "sub-sst",
+      "marks": 84,
+      "status": "Published",
+      "enteredBy": "fac-04",
+      "updatedAt": "2025-10-18"
+    },
+    {
+      "id": "res-mid-04",
+      "studentId": "stu-10a-01",
+      "examId": "exam-mid",
+      "subjectId": "sub-cs",
+      "marks": 96,
+      "status": "Published",
+      "enteredBy": "fac-05",
+      "updatedAt": "2025-10-18"
+    },
+    {
+      "id": "res-mid-05",
+      "studentId": "stu-10a-01",
+      "examId": "exam-mid",
+      "subjectId": "sub-hin",
+      "marks": 79,
+      "status": "Published",
+      "enteredBy": "fac-06",
+      "updatedAt": "2025-10-18"
+    }
+  ],
+  "notices": [
+    {
+      "id": "not-1",
+      "title": "Midterm Examination Schedule Announcement",
+      "description": "The timetable and room arrangements for the upcoming Midterm Examination have been finalized. Students are requested to bring their student ID cards and standard stationery items. Electronic devices are strictly prohibited in the exam hall.",
+      "category": "Exam",
+      "date": "2025-10-05",
+      "authorId": "fac-01",
+      "authorName": "Mrs. Meera Kulkarni"
+    },
+    {
+      "id": "not-2",
+      "title": "Science Exhibition 2025 – Registrations Open",
+      "description": "Scholix Annual Science Fair will be hosted on November 15th. Students from Grades 8 to 10 are invited to submit team project abstracts in Robotics, Clean Energy, and Environmental Tech by the end of this month.",
+      "category": "Event",
+      "date": "2025-10-02",
+      "authorId": "fac-02",
+      "authorName": "Dr. Rajesh Deshmukh"
+    },
+    {
+      "id": "not-3",
+      "title": "Diwali & Midterm Break Holidays",
+      "description": "The school will remain closed from October 28th to November 4th on account of the festival of Diwali and midterm break. Classes will resume punctually on Wednesday, November 5th.",
+      "category": "Holiday",
+      "date": "2025-09-28",
+      "authorId": "fac-01",
+      "authorName": "Mrs. Meera Kulkarni"
+    },
+    {
+      "id": "not-4",
+      "title": "Special Mathematics Problem-Solving Workshop",
+      "description": "An advanced problem-solving workshop for Grade 10 students preparing for state and national mathematics contests will be conducted every Saturday from 10:00 AM to 12:00 PM in Room 302.",
+      "category": "Academic",
+      "date": "2025-09-20",
+      "authorId": "fac-01",
+      "authorName": "Mrs. Meera Kulkarni"
+    },
+    {
+      "id": "not-5",
+      "title": "CodeCraft Hackathon Winners Felicitations",
+      "description": "Congratulations to our Grade 10 student team led by Aarav Sharma for securing 2nd prize at the Inter-School CodeCraft Web Development Hackathon! The trophies will be presented during Monday morning assembly.",
+      "category": "General",
+      "date": "2025-09-12",
+      "authorId": "fac-05",
+      "authorName": "Mrs. Priya Nair"
+    }
+  ],
+  "documentRequests": [
+    {
+      "id": "REQ-1001",
+      "studentId": "stu-10a-01",
+      "studentName": "Aarav Sharma",
+      "studentRollNo": "01",
+      "className": "Class 10-A",
+      "type": "Fee Certificate",
+      "purpose": "Required for bank education loan interest subsidy verification",
+      "copies": 1,
+      "dateRequested": "2025-10-12",
+      "status": "Ready for Collection",
+      "remark": "Signed and stamped by Accounts Department. Available at the Administrative Office counter.",
+      "updatedBy": "Mrs. Meera Kulkarni"
+    },
+    {
+      "id": "REQ-1002",
+      "studentId": "stu-10a-02",
+      "studentName": "Diya Patel",
+      "studentRollNo": "02",
+      "className": "Class 10-A",
+      "type": "Scholarship Document",
+      "purpose": "State merit scholarship program application submission",
+      "copies": 2,
+      "dateRequested": "2025-10-15",
+      "status": "Approved",
+      "remark": "Verified academic credentials and attendance record. Ready for printing.",
+      "updatedBy": "Dr. Rajesh Deshmukh"
+    },
+    {
+      "id": "REQ-1003",
+      "studentId": "stu-9b-05",
+      "studentName": "Rohan Mehta",
+      "studentRollNo": "05",
+      "className": "Class 9-B",
+      "type": "Character Certificate",
+      "purpose": "External district sports championship player verification",
+      "copies": 1,
+      "dateRequested": "2025-10-20",
+      "status": "Pending",
+      "remark": "",
+      "updatedBy": ""
+    }
+  ]
+}
